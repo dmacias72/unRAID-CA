@@ -10,7 +10,7 @@
 The Apache HTTP Server Project is an effort to develop and maintain an open-source HTTP server for modern operating systems including UNIX and Windows NT. The goal of this project is to provide a secure, efficient and extensible server that provides HTTP services in sync with the current HTTP standards.
 </Description>
 <Support>http://lime-technology.com/forum/index.php?topic=33692.0</Support>
-<Icon>https://raw.githubusercontent.com/dmacias72/unRAID-plugins-CA/master/plugins/apache.png</Icon>
+<Icon>https://raw.githubusercontent.com/dmacias72/unRAID-CA/master/plugins/apache.png</Icon>
 <Date>2017.01.28</Date>
 <Changes>
 ###2017.01.28

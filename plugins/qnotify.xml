@@ -10,7 +10,7 @@
 The Quassel Notify plugin allows you to receive Pushbullet notifications based on keywords from Quassel Core Server. It uses PyQuassel which is a pure python implementation of QuasselClient. Doesn't depend on any PySide or PyQt libraries.
 </Description>
 <Support>http://lime-technology.com/forum/</Support>
-<Icon>https://raw.githubusercontent.com/dmacias72/unRAID-plugins-CA/master/plugins/qnotify.png</Icon>
+<Icon>https://raw.githubusercontent.com/dmacias72/unRAID-CA/master/plugins/qnotify.png</Icon>
 <Date>2016-10-09</Date>
 <Changes>
 ###2016.10.09
