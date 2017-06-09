@@ -6,6 +6,9 @@
 <Beta>False</Beta>
 <Category>Tools:System</Category>
 <Name>IPMI Tools</Name>
+<DonateText>If you wanna buy me a beer.</DonateText>
+<DonateLink>https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BKQJF5NVA5E3S</DonateLink>
+<DonateImage>https://www.paypalobjects.com/webstatic/en_US/btn/btn_donate_74x21.png</DonateImage>
 <Description>
 The ipmi plugin allows you to view your system sensors and events using your ipmi hardware. Allows for local or remote access and event notification.
 </Description>
@@ -65,8 +68,8 @@ The ipmi plugin allows you to view your system sensors and events using your ipm
 - fix: workaround for dynamix plugin update api not refreshing after update (remove update message)
 - fix: workaround for dynamix drop down checklists bug (F5 on other tab breaks ddcl)
 - fix: refresh Settings tab on tab1 click for ddcl bug
-- fix: check for board manufacturer 
-- add: remove auto board.json update and add manual Check for Updates button  
+- fix: check for board manufacturer
+- add: remove auto board.json update and add manual Check for Updates button
 - add: update fan logging: add start/stop messages and fan speed changes are in the form Fan Name(%):Temp Sensor(°C)
 - add: ignored sensors to fan control page
 - add: ignored sensors and command line arguments to CL helper scripts: ipmisensors, ipmisel and ipmifru

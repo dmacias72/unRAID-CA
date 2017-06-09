@@ -6,6 +6,9 @@
 <Beta>False</Beta>
 <Category>Tools:System</Category>
 <Name>NerdPack GUI</Name>
+<DonateText>If you wanna buy me a beer.</DonateText>
+<DonateLink>https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BKQJF5NVA5E3S</DonateLink>
+<DonateImage>https://www.paypalobjects.com/webstatic/en_US/btn/btn_donate_74x21.png</DonateImage>
 <Description>
 This plugin allows installation of extra packages, mostly CLI, for advanced users.  Use at your own risk.  Not officially supported by LimeTech.
 </Description>
@@ -25,7 +28,7 @@ This plugin allows installation of extra packages, mostly CLI, for advanced user
 - fix: not creating package directory
 ###2016.10.08
 - fix: false positive of installed packages
-- fix: packagemanager bug if cookies are missing 
+- fix: packagemanager bug if cookies are missing
 ###2016.09.18
 - fix: packagemanager array errors
 ###2016.09.16
@@ -48,7 +51,7 @@ This plugin allows installation of extra packages, mostly CLI, for advanced user
 ###2016.02.17
 - remove curl progress bar
 - separate plugin depends by comma
-- only show update status of selected packages when 
+- only show update status of selected packages when
 ###2016.02.15
 - update tablesorter
 - fix spacing of echoed messages
@@ -60,7 +63,7 @@ This plugin allows installation of extra packages, mostly CLI, for advanced user
 - add check for other plugin dependencies on uninstall
 ###2016.01.25
 - Merge eschultz pull request
-- tweaks to tablesorter to restore saved filters 
+- tweaks to tablesorter to restore saved filters
 - minor optimizations
 ###2016.01.24
 - Merged eschultz's package repo and following fixes

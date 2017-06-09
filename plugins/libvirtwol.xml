@@ -6,6 +6,9 @@
 <Beta>False</Beta>
 <Category>Tools:System</Category>
 <Name>Virtual Machine Wake On Lan</Name>
+<DonateText>If you wanna buy me a beer.</DonateText>
+<DonateLink>https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BKQJF5NVA5E3S</DonateLink>
+<DonateImage>https://www.paypalobjects.com/webstatic/en_US/btn/btn_donate_74x21.png</DonateImage>
 <Description>
 Wake On Lan for Virtual Machines. Allows you to recieve a wake on lan packet to wake or start up kvm virtual machines.
 </Description>
