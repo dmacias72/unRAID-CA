@@ -7,7 +7,7 @@
 <Category>Network:Webserver</Category>
 <Name>Apache Web Server</Name>
 <DonateText>If you wanna buy me a beer.</DonateText>
-<DonateLink>https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BKQJF5NVA5E3S</DonateLink>
+<DonateLink>https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=BKQJF5NVA5E3S</DonateLink>
 <DonateImage>https://www.paypalobjects.com/webstatic/en_US/btn/btn_donate_74x21.png</DonateImage>
 <Description>
 The Apache HTTP Server Project is an effort to develop and maintain an open-source HTTP server for modern operating systems including UNIX and Windows NT. The goal of this project is to provide a secure, efficient and extensible server that provides HTTP services in sync with the current HTTP standards.
