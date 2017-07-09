@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+<Plugin>True</Plugin>
+<PluginURL>https://raw.githubusercontent.com/dmacias72/unRAID-DevPack/master/plugin/DevPack.plg</PluginURL>
+<PluginAuthor>dmacias72</PluginAuthor>
+<Beta>False</Beta>
+<Category>Tools:System</Category>
+<Name>DevPack GUI</Name>
+<DonateText>If you wanna buy me a beer.</DonateText>
+<DonateLink>https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=BKQJF5NVA5E3S</DonateLink>
+<DonateImage>https://www.paypalobjects.com/webstatic/en_US/btn/btn_donate_74x21.png</DonateImage>
+<Description>
+This plugin allows installation of dev packages, a collection of packages for compiling packages for unRAID. Not officially supported by LimeTech.
+</Description>
+<Support>https://forums.lime-technology.com/index.php?/topic/58506-unRAID-6-DevPack---Dev-tools-(gc,-gcc,-glib,-make,-etc.)</Support>
+<Icon>https://raw.githubusercontent.com/dmacias72/unRAID-DevPack/master/plugin/DevPack.png</Icon>
+<Date>2017.07.02</Date>
+<Changes>
+###2017.07.02
+- fork Nerdpack to create DevPack
+- add all dev packages
+- rename all variables and file names to reflect fork
+###2017.06.17
+- combine delete and uninstall switch
+- add cleanup of old packages
+- add support for azure and gray themes
+- change to separate repo
+- update tablesorter
+###2017.02.06
+- fix support link
+- add perl toggle for vim
+###2017.01.31
+- move local tablesorter to cdn
+- add support link to readme
+###2016.10.20
+- fix: php7 compatibility
+###2016.10.09
+- fix: not creating package directory
+###2016.10.08
+- fix: false positive of installed packages
+- fix: packagemanager bug if cookies are missing
+###2016.09.18
+- fix: packagemanager array errors
+###2016.09.16
+- fix: empty package list on new install or upgrade
+- update tablesorter to 2.27.6
+###2016.09.10
+- add: popup for unRAID version change or empty downloads folder
+- add: always compare package checksums
+- fix: remove corrupted packages
+- fix: remove failed downloads
+- fix: add package desc and json to scandir filter
+###2016.03.15
+- enable apply button if update ready
+- fix: remove old package settings from config after package update
+- create separate package repos  for 6.1 and 6.2
+- update plugin for unRAID 6.2 compatibility
+- update packages for 6.2
+###2016.02.23
+- fix: search for a partial match of packages used in other plugins
+###2016.02.17
+- remove curl progress bar
+- separate plugin depends by comma
+- only show update status of selected packages when processing
+###2016.02.15
+- update tablesorter
+- fix spacing of processing messages
+- remove array start event package install
+- move initial package install to plugin install
+###2016.02.08
+- fix permissions on event script
+###2016.02.02
+- add check for other plugin dependencies on uninstall
+###2016.01.25
+- Merge eschultz pull request
+- tweaks to tablesorter to restore saved filters
+- minor optimizations
+###2016.01.24
+- Merged eschultz's package repo and following fixes
+- Fixed first time running warnings about missing packages.json / desc files
+- Fixed bug preventing Select All from being toggle-able
+- Fixed bug in Select All and dependent package checkboxes / race condition
+- Eliminated vertical space gap between page header and table
+###2016.01.16a
+- add metric parser to sort units
+###2016.01.16
+- minor diplay changes
+- add tablesorter as a separate package
+###2016.01.15
+- fix filter save
+- add filter reset button
+###2016.01.10a-c
+- fix name of package description file
+###2016.01.10
+- added dynamic package description tootips
+- updated tablesorter to v2.25.0
+- add tablesorter widgets (filter, saveSort, stickyHeaders, hover-highlight)
+- added cli options to packagemanager script
+###2015.12.30
+- create packages directory on install
+###2015.12.15a
+- remove command output
+###2015.12.15
+- minor fixes
+###2015.12.14
+- add update functions
+- add delete package function
+- fix some minor bugs
+###2015.12.13
+- initial commit of wrapper plugin for packages in repo
+</Changes>
+</Containers>
