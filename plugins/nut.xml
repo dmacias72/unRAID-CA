@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+<Plugin>True</Plugin>
+<PluginURL>https://raw.githubusercontent.com/dmacias72/NUT-unRAID/master/plugin/nut.plg</PluginURL>
+<PluginAuthor>dmacias72</PluginAuthor>
+<Beta>False</Beta>
+<Category>Tools:System</Category>
+<Name>NUT - Network UPS Tools</Name>
+<DonateText>If you wanna buy me a beer.</DonateText>
+<DonateLink>https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=BKQJF5NVA5E3S</DonateLink>
+<DonateImage>https://www.paypalobjects.com/webstatic/en_US/btn/btn_donate_74x21.png</DonateImage>
+<Description>
+This plugin installs NUT- Network UPS Tools for controlling and monitoring Uninterruptible Power Supplies.  Use at your own risk.  Not officially supported by LimeTech.
+</Description>
+<Support>https://forums.lime-technology.com/topic/60217-plugin-nut-v2-network-ups-tools/</Support>
+<Icon>https://raw.githubusercontent.com/dmacias72/NUT-unRAID/master/plugin/nut.png</Icon>
+<Date>2017-09-17</Date>
+<Changes>
+###2017.09.17
+- add ability to change UPS Monitor Name, User and Password
+- update icons
+###2017.06.17a
+- add support for 6.4 themes
+###2017.06.04
+- add net-snmp package
+###2017.05.27
+- add autodetection for UPS
+- fix ip mask
+###2017.05.26
+- add master/slave options
+- fix runtime display format
+###2017.05.24
+- add dropdown options for battery and timers
+- add killpower flag condition to shutdown script
+###2017.05.22
+- fix shutdown scripts
+- move default nut conf files
+###2017.05.20
+- fix manual config  settings
+###2017.05.19
+- fix reload button
+- add start conditions to rc script
+###2017.05.17
+- add manual mode, reload and config editor to settings page
+- reformat settings page, hide unused vars
+- add vars, rewrite, combine and move scripts
+- add snmp settings from Ambrotos fork - untested
+- add UPS summary, UPS details page and dashboard page
+- add dynamix plugin api
+- remove depreciated code
+- restructure and repackage plugin
+- rename nut plugin package to difer from nut package
+
+###2015.09.19###
+- UPS statistics now auto updates(every two seconds)
+
+###2015.08.24###
+- added launch from plugins(saarg)
+
+###2015.08.23###
+- added blazer_ser to drivers
+
+###2015.08.23###
+- Public Release
+- Fix, Restart on upgrades
+
+###2015.08.22###
+- Uninstall fixes
+- Fix autorestart after upgrade
+- Make USB drivers selectable
+- Add shutdown on battery levels
+- Remove user/password and hardcode them (see plugin help)
+- Moved scripts to plugin folder for 6.1 (ln -s rc.nut)
+
+###2015.08.21###
+- Initial Release
+- Test Version (plg)
+</Changes>
+</Containers>
