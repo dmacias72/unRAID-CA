@@ -16,7 +16,7 @@ This plugin allows installation of dev packages, a collection of packages for co
 <Icon>https://raw.githubusercontent.com/dmacias72/unRAID-DevPack/master/plugin/DevPack.png</Icon>
 <Date>2017-10-01</Date>
 <Changes>
-###2017.10.01
+###2017.10.01b
 - fix stickyheaders for new themes
 - update tablesorter to 2.29.0
 - add status for installed and not installed packages
