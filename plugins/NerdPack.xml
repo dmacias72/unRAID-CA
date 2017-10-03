@@ -16,7 +16,8 @@ This plugin allows installation of extra packages, mostly CLI, for advanced user
 <Icon>https://raw.githubusercontent.com/dmacias72/unRAID-NerdPack/master/plugin/NerdPack.png</Icon>
 <Date>2017-10-03</Date>
 <Changes>
-###2017.10.03
+###2017.10.03a
+- fix uninstall toggle css
 - fix uninstall package toggle
 - move cdnjs to local
 ###2017.10.01b
