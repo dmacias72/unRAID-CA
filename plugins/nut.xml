@@ -14,8 +14,13 @@ This plugin installs NUT- Network UPS Tools for controlling and monitoring Unint
 </Description>
 <Support>https://forums.lime-technology.com/topic/60217-plugin-nut-v2-network-ups-tools/</Support>
 <Icon>https://raw.githubusercontent.com/dmacias72/NUT-unRAID/master/plugin/nut.png</Icon>
-<Date>2017-09-17</Date>
+<Date>2017-10-05</Date>
 <Changes>
+###2017.10.05
+- fix add username and password to upsd users
+- add autorefresh to editor to fix line number placement
+- move cdnjs to local
+- update support for new themes
 ###2017.09.17
 - add ability to change UPS Monitor Name, User and Password
 - update icons
