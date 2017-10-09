@@ -14,8 +14,10 @@ The ipmi plugin allows you to view your system sensors and events using your ipm
 </Description>
 <Support>http://lime-technology.com/forum/index.php?topic=39787.0</Support>
 <Icon>https://raw.githubusercontent.com/dmacias72/IPMI-unRAID/master/plugin/ipmi.png</Icon>
-<Date>2017-10-06</Date>
+<Date>2017-10-09</Date>
 <Changes>
+###2017.10.09
+- add support for dual socket to ipmi2json script only
 ###2017.10.06
 - change fancontrol min and max to show percentage instead of 1 -64
 - update help
