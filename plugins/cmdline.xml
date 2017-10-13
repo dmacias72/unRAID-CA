@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
 <Plugin>True</Plugin>
-<PluginURL>https://raw.githubusercontent.com/dmacias72/unRAID-plugins/master/plugins/cmdline.plg</PluginURL>
+<PluginURL>https://raw.githubusercontent.com/dmacias72/unRAID-cmdline/master/plugin/cmdline.plg</PluginURL>
 <PluginAuthor>dmacias72</PluginAuthor>
 <Beta>False</Beta>
 <Category>Tools:System</Category>
@@ -13,9 +13,15 @@
 Command Line implements Shell In A Box. A web server that can export arbitrary command line tools to a web based terminal emulator. A Command Line tool is created under the Tools menu. Backup and restore user home directory on system shutdown and start. Also includes screenfetch for command line screenshots.
 </Description>
 <Support>http://lime-technology.com/forum/index.php?topic=42683.0</Support>
-<Icon>https://raw.githubusercontent.com/dmacias72/unRAID-plugins/master/plugins/cmdline.png</Icon>
-<Date>2017.02.05</Date>
+<Icon>https://raw.githubusercontent.com/dmacias72/unRAID-cmdline/master/plugin/cmdline.png</Icon>
+<Date>2017.10.12</Date>
 <Changes>
+###2017.10.12
+- move to separate repo
+- update shellinabox package to latest 2.20
+- fix: disable setting when running
+###2017.05.21
+- fix screenfetch not added to bash profile
 ###2017.02.05
 - update some code to jquery
 - add support link in readme
