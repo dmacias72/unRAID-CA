@@ -14,8 +14,14 @@ The ipmi plugin allows you to view your system sensors and events using your ipm
 </Description>
 <Support>http://lime-technology.com/forum/index.php?topic=39787.0</Support>
 <Icon>https://raw.githubusercontent.com/dmacias72/IPMI-unRAID/master/plugin/ipmi.png</Icon>
-<Date>2017-10-26</Date>
+<Date>2017-10-27</Date>
 <Changes>
+###2017.10.27
+- upgrade freeipmi to 1.5.7
+- fix fan control full and auto speed for ASRock dual socket boards
+- add hard drive selection for display sensors and Readings
+- get hard drives for HDD Temperature from emhttp devices
+- if available get unassigned drive temps from UA plugin
 ###2017.10.26
 - add support for ASRock dual socket boards
 - misc fixes and code cleanup
