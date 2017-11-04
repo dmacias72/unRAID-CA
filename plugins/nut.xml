@@ -14,8 +14,13 @@ This plugin installs NUT- Network UPS Tools for controlling and monitoring Unint
 </Description>
 <Support>https://forums.lime-technology.com/topic/60217-plugin-nut-v2-network-ups-tools/</Support>
 <Icon>https://raw.githubusercontent.com/dmacias72/NUT-unRAID/master/plugin/nut.png</Icon>
-<Date>2017-10-28</Date>
+<Date>2017-11-03</Date>
 <Changes>
+###2017.11.03
+- update killpower flag
+- update permissions and security for nut configs
+- change username and password variables
+- add slave user and password
 ###2017.10.28
 - downgrade nut package to 2.7.4 due to usb resets in 6.4rc10b
 ###2017.10.10
