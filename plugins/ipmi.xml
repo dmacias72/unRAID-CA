@@ -14,8 +14,11 @@ The ipmi plugin allows you to view your system sensors and events using your ipm
 </Description>
 <Support>http://lime-technology.com/forum/index.php?topic=39787.0</Support>
 <Icon>https://raw.githubusercontent.com/dmacias72/IPMI-unRAID/master/plugin/ipmi.png</Icon>
-<Date>2017-11-11</Date>
+<Date>2017-11-24</Date>
+
 <Changes>
+###2017.11.24
+- fix footer refresh rate
 ###2017.11.11
 - fix network settings not saving
 - change Dash page and Fan Control page condition check
