@@ -14,9 +14,12 @@ The ipmi plugin allows you to view your system sensors and events using your ipm
 </Description>
 <Support>http://lime-technology.com/forum/index.php?topic=39787.0</Support>
 <Icon>https://raw.githubusercontent.com/dmacias72/IPMI-unRAID/master/plugin/ipmi.png</Icon>
-<Date>2017-11-24</Date>
-
+<Date>2017-11-26</Date>
 <Changes>
+###2017.11.26
+- fix plugin install services starting when disabled
+- fix bmc reset and editor save success/error return
+- add sensor cache flush to bmc reset
 ###2017.11.24
 - fix footer refresh rate
 ###2017.11.11
