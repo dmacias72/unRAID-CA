@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
 <Plugin>True</Plugin>
-<PluginURL>https://raw.githubusercontent.com/dmacias72/unRAID-plugins/master/plugins/libvirtwol.plg</PluginURL>
+<PluginURL>https://raw.githubusercontent.com/dmacias72/unRAID-libvirtwol/master/plugin/libvirtwol.plg</PluginURL>
 <PluginAuthor>dmacias72</PluginAuthor>
 <Beta>False</Beta>
 <Category>Tools:System</Category>
@@ -13,9 +13,11 @@
 Wake On Lan for Virtual Machines. Allows you to recieve a wake on lan packet to wake or start up kvm virtual machines.
 </Description>
 <Support>http://lime-technology.com/forum/index.php?topic=44017.0</Support>
-<Icon>https://raw.githubusercontent.com/dmacias72/unRAID-plugins/master/plugins/libvirtwol.png</Icon>
-<Date>2017.04.11</Date>
+<Icon>https://raw.githubusercontent.com/dmacias72/unRAID-libvirtwol/master/plugin/libvirtwol.png</Icon>
+<Date>2017.11.28</Date>
 <Changes>
+###2017.11.28
+- move to separate repo
 ###2017.04.11
 - update python for 6.2, 6.3 and 6.4
 ###2017.01.30a
