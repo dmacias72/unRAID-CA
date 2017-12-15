@@ -14,8 +14,12 @@ The ipmi plugin allows you to view your system sensors and events using your ipm
 </Description>
 <Support>http://lime-technology.com/forum/index.php?topic=39787.0</Support>
 <Icon>https://raw.githubusercontent.com/dmacias72/IPMI-unRAID/master/plugin/ipmi.png</Icon>
-<Date>2017-11-29</Date>
+<Date>2017-12-14</Date>
 <Changes>
+###2017.12.14
+- add compatibility with System Temp plugin
+- add support for any sensor display in footer
+- reformat footer display
 ###2017.11.29
 - fix fan control rc.local_shutdown command options
 ###2017.11.26
