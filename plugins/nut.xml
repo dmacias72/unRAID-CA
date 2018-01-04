@@ -14,8 +14,10 @@ This plugin installs NUT- Network UPS Tools for controlling and monitoring Unint
 </Description>
 <Support>https://forums.lime-technology.com/topic/60217-plugin-nut-v2-network-ups-tools/</Support>
 <Icon>https://raw.githubusercontent.com/dmacias72/NUT-unRAID/master/plugin/nut.png</Icon>
-<Date>2017-11-29</Date>
+<Date>2018-01-03</Date>
 <Changes>
+###2018.01.03
+- fix load for ups with ups.power.nominal vs ups.realpower.nominal
 ###2017.11.29
 - fix permissions so nut conf are not world readable
 - fix nut-scanner options, only scan usb for auto config
