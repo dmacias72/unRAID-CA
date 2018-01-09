@@ -14,8 +14,14 @@ This plugin installs NUT- Network UPS Tools for controlling and monitoring Unint
 </Description>
 <Support>https://forums.lime-technology.com/topic/60217-plugin-nut-v2-network-ups-tools/</Support>
 <Icon>https://raw.githubusercontent.com/dmacias72/NUT-unRAID/master/plugin/nut.png</Icon>
-<Date>2018-01-03</Date>
+<Date>2018-01-09</Date>
 <Changes>
+###2018.01.09
+- update nut package to 2.7.4 2017.11.29 commit fd7189d
+- revert Eaton use-case since it is included in nut package
+- add ups va and watt capacity inputs for ups that do not present real power nominal
+###2018.01.06
+- add Eaton use-case to improve load accuracy thanks @realies
 ###2018.01.03
 - fix load for ups with ups.power.nominal vs ups.realpower.nominal
 ###2017.11.29
