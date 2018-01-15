@@ -14,8 +14,10 @@ This plugin installs NUT- Network UPS Tools for controlling and monitoring Unint
 </Description>
 <Support>https://forums.lime-technology.com/topic/60217-plugin-nut-v2-network-ups-tools/</Support>
 <Icon>https://raw.githubusercontent.com/dmacias72/NUT-unRAID/master/plugin/nut.png</Icon>
-<Date>2018-01-09</Date>
+<Date>2018-01-14</Date>
 <Changes>
+###2018.01.14
+- fix nut power showing 0
 ###2018.01.09
 - update nut package to 2.7.4 2017.11.29 commit fd7189d
 - revert Eaton use-case since it is included in nut package
