@@ -14,8 +14,12 @@ This plugin interacts with the command line interface for testing internet bandw
 </Description>
 <Support>http://lime-technology.com/forum/index.php?topic=43500.0</Support>
 <Icon>https://raw.githubusercontent.com/dmacias72/unRAID-speedtest/master/plugin/speedtest.png</Icon>
-<Date>2018-01-13</Date>
+<Date>2018-01-14</Date>
 <Changes>
+###2018.01.14
+- fix warning on default ping setting
+- replace protocol for image based on protocol used
+- add test button to settings page
 ###2018.01.13
 - update speedtest to version 1.0.7
 - update python to 2.7.14a
