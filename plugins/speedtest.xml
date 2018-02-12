@@ -14,8 +14,11 @@ This plugin interacts with the command line interface for testing internet bandw
 </Description>
 <Support>http://lime-technology.com/forum/index.php?topic=43500.0</Support>
 <Icon>https://raw.githubusercontent.com/dmacias72/unRAID-speedtest/master/plugin/speedtest.png</Icon>
-<Date>2018-01-27</Date>
+<Date>2018-02-11</Date>
 <Changes>
+###2018.02.11
+- update tablesorter 2.29.5
+- update speedtest 2.0
 ###2018.01.27
 - add download button to results page
 - add colors to ping, download, and upload based on thresholds
