@@ -14,8 +14,12 @@ Command Line implements Shell In A Box. A web server that can export arbitrary c
 </Description>
 <Support>http://lime-technology.com/forum/index.php?topic=42683.0</Support>
 <Icon>https://raw.githubusercontent.com/dmacias72/unRAID-cmdline/master/plugin/cmdline.png</Icon>
-<Date>2017.12.09</Date>
+<Date>2018.02.18</Date>
 <Changes>
+###2018.02.18
+- add support for built in letsencrypt certificates
+- add support for command line button replacing built in terminal button
+- remove runas user support
 ###2017.12.09
 - fix reduce screenfetch cpu line to fit within 80 chars
 ###2017.10.12
