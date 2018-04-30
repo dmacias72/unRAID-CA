@@ -14,8 +14,12 @@ This plugin installs NUT- Network UPS Tools for controlling and monitoring Unint
 </Description>
 <Support>https://forums.lime-technology.com/topic/60217-plugin-nut-v2-network-ups-tools/</Support>
 <Icon>https://raw.githubusercontent.com/dmacias72/NUT-unRAID/master/plugin/nut.png</Icon>
-<Date>2018-01-16</Date>
+<Date>2018-04-29</Date>
 <Changes>
+###2018.04.29
+- fix rc script interfering with cupsd
+- fix Run time in red only when on battery thanks @realies
+- compile nut-2.7.4.20180429 libusb 1.0+0.1 branch for 6.5 added patch for wait and retry
 ###2018.01.16
 - tweak notification event and subject
 ###2018.01.14
