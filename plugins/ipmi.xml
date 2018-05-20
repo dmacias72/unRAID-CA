@@ -16,6 +16,8 @@ The ipmi plugin allows you to view your system sensors and events using your ipm
 <Icon>https://raw.githubusercontent.com/dmacias72/IPMI-unRAID/master/plugin/ipmi.png</Icon>
 <Date>2018-05-20</Date>
 <Changes>
+###2018.05.20a
+- move range from json to global var
 ###2018.05.20
 - format min and max percentages to one decimal place
 - add support for Supermicro X9 boards
