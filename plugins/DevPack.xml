@@ -14,8 +14,12 @@ This plugin allows installation of dev packages, a collection of packages for co
 </Description>
 <Support>https://forums.lime-technology.com/index.php?/topic/58506-unRAID-6-DevPack---Dev-tools-(gc,-gcc,-glib,-make,-etc.)</Support>
 <Icon>https://raw.githubusercontent.com/dmacias72/unRAID-DevPack/master/plugin/DevPack.png</Icon>
-<Date>2017-10-01</Date>
+<Date>2018-10-23</Date>
 <Changes>
+###2018.10.23
+- fix only include headers for inherent unRAID packages
+- add autov to css and js
+- remove support link from readme
 ###2017.10.01b
 - fix stickyheaders for new themes
 - update tablesorter to 2.29.0
