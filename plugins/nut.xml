@@ -14,8 +14,10 @@ This plugin installs NUT- Network UPS Tools for controlling and monitoring Unint
 </Description>
 <Support>https://forums.lime-technology.com/topic/60217-plugin-nut-v2-network-ups-tools/</Support>
 <Icon>https://raw.githubusercontent.com/dmacias72/NUT-unRAID/master/plugin/nut.png</Icon>
-<Date>2018-11-25</Date>
+<Date>2019-01-24</Date>
 <Changes>
+###2019.01.24
+- update settings icon to fa font
 ###2018.11.25
 - add autov to css and js
 - build nut package from usblib-1.0
