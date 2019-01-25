@@ -14,8 +14,10 @@ The ipmi plugin allows you to view your system sensors and events using your ipm
 </Description>
 <Support>http://lime-technology.com/forum/index.php?topic=39787.0</Support>
 <Icon>https://raw.githubusercontent.com/dmacias72/IPMI-unRAID/master/plugin/ipmi.png</Icon>
-<Date>2018-12-31</Date>
+<Date>2019-01-24</Date>
 <Changes>
+###2019.01.24
+- update settings icon to fa font
 ###2018.12.31
 - add support for Supermicro boards with CPU_FAN and SYS_FAN fan names
 ###2018.11.10

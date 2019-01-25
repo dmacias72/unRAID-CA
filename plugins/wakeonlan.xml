@@ -14,8 +14,10 @@ Wake On Lan plugin allows you to scan your network, add and save computers from 
 </Description>
 <Support>http://lime-technology.com/forum/index.php?topic=38289.0</Support>
 <Icon>https://raw.githubusercontent.com/dmacias72/unRAID-WOL/master/plugin/wakeonlan.png</Icon>
-<Date>2017-10-03</Date>
+<Date>2019-01-24</Date>
 <Changes>
+###2019.01.24
+- update settings icon to fa font
 ###2017.10.03
 - fix stickyheaders and css for new themes
 - move cdnjs to local
