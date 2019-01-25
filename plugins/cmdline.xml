@@ -18,6 +18,7 @@ Command Line implements Shell In A Box. A web server that can export arbitrary c
 <Changes>
 ###2019.01.24
 - remove port from host name
+- update icon for settings page to fa font
 ###2018.10.28
 - remove support link from readme
 - add autov to css links
