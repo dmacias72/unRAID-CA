@@ -14,8 +14,11 @@ Wake On Lan for Virtual Machines. Allows you to recieve a wake on lan packet to 
 </Description>
 <Support>http://lime-technology.com/forum/index.php?topic=44017.0</Support>
 <Icon>https://raw.githubusercontent.com/dmacias72/unRAID-libvirtwol/master/plugin/libvirtwol.png</Icon>
-<Date>2019.01.06</Date>
+<Date>2019.01.25</Date>
 <Changes>
+###2019.01.25
+- convert icons to fa fonts
+- update python environment libvirt to 4.10.0
 ###2019.01.06
 - move all python dependencies to virtual environment package
 - add initial support for virtual bmc
