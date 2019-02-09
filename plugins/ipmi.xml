@@ -14,8 +14,10 @@ The ipmi plugin allows you to view your system sensors and events using your ipm
 </Description>
 <Support>http://lime-technology.com/forum/index.php?topic=39787.0</Support>
 <Icon>https://raw.githubusercontent.com/dmacias72/IPMI-unRAID/master/plugin/ipmi.png</Icon>
-<Date>2019-01-25</Date>
+<Date>2019-02-08</Date>
 <Changes>
+###2019.02.08
+- add remaining fa icons
 ###2019.01.25
 - remove all icons and convert to fa fonts
 - fix summarized notification misalignment caused by tablesorter css
