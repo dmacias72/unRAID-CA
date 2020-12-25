@@ -4,7 +4,7 @@
 <PluginURL>https://raw.githubusercontent.com/dmacias72/IPMI-unRAID/master/plugin/ipmi.plg</PluginURL>
 <PluginAuthor>dmacias72</PluginAuthor>
 <Beta>False</Beta>
-<Category>Tools:System</Category>
+<Category>Tools:System Drivers:</Category>
 <Name>IPMI Tools</Name>
 <DonateText>If you wanna buy me a beer.</DonateText>
 <DonateLink>https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=BKQJF5NVA5E3S</DonateLink>
