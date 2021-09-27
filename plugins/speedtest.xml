@@ -6,6 +6,7 @@
 <Beta>False</Beta>
 <Category>Network:Other Tools:System</Category>
 <Name>Speedtest</Name>
+<Requires>Python 2 (install via NerdPack)</Requires>
 <DonateText>If you wanna buy me a beer.</DonateText>
 <DonateLink>https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=BKQJF5NVA5E3S</DonateLink>
 <DonateImage>https://www.paypalobjects.com/webstatic/en_US/btn/btn_donate_74x21.png</DonateImage>
